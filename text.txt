@@ -1,0 +1,22 @@
+read x;
+if (0<x) then
+fact:= 3
+
+end
+
+repeat
+fact:= fact*x
+X:= x-1
+fact= x
+until x=0;
+
+read x;
+if (O<x) then
+
+repeat
+
+x:= 1;
+
+until x=0;
+write fact;
+end
