@@ -41,6 +41,7 @@ body {
 #scanner,
 #parser {
   margin-top: 40px;
+  line-break: anywhere;
 }
 
 #lineOfCode {
@@ -49,4 +50,16 @@ body {
   align-items: center;
   padding: 5px 0;
   border-bottom: 1px solid #e0e0e0;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    flex-direction: column;
+  }
+  .outputContainer,
+  #codeArea {
+    width: 100%;
+    min-height: 500px;
+    border-bottom: 5px solid white;
+  }
 }
